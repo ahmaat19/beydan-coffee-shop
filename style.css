@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 body {
   background: url(./images/background.png) no-repeat center center fixed;
@@ -50,19 +51,67 @@ header.sticky nav {
 #header.sticky .nav-link:hover {
   background: #f3ad1b;
 }
-#header .carousel img {
-  position: relative !important;
-  background-attachment: fixed !important;
-}
+
 .carousel-caption {
-  position: absolute;
-  right: 15%;
   bottom: 35%;
-  left: 15%;
-  z-index: 9;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #fff;
-  text-align: center;
-  background: #ab283331;
+}
+
+/* ------------------ Offer ------------------ */
+#offer .card img {
+  width: 100px;
+}
+#offer .card {
+  transition: 0.5s ease-in-out;
+}
+#offer .card:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0.5rem 1rem #ab283325 !important;
+}
+
+/* ------------------ Herald ------------------ */
+#herald a:hover {
+  color: #ab2833;
+}
+#herald .card {
+  transition: 0.5s ease-in-out;
+}
+#herald .card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0.5rem 1rem #ab283325 !important;
+}
+.bg-fluid {
+  background: #ab283318;
+}
+
+/* ------------------ Shop ------------------ */
+#shop .card img {
+  max-width: 250px;
+}
+#shop .card {
+  transition: 0.5s ease-in-out;
+}
+#shop .card:hover {
+  transform: rotate(5deg);
+  box-shadow: 0 0.5rem 1rem #ab283325 !important;
+}
+
+/* ------------------ Gallery ------------------ */
+#gallery img {
+  transition: 0.5s ease-in-out;
+}
+#gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0.5rem 1rem #ab283325 !important;
+  border-radius: 10px;
+}
+
+/* ------------------ Footer ------------------ */
+#footer .social-links i {
+  font-size: 20px;
+  transition: 0.5s ease-in-out;
+}
+#footer .social-links i:hover {
+  font-size: 30px;
+  transform: rotate(360deg);
+  color: #ab2833;
 }
