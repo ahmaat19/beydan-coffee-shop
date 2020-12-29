@@ -9,7 +9,12 @@ import title from '../images/title-separator.png'
 const Gallery = () => {
   return (
     <div className='container-fluid bg-fluid'>
-      <div className='container py-5' id='gallery'>
+      <div
+        className='container py-5'
+        id='gallery'
+        data-aos='fade-left'
+        data-aos-duration='2000'
+      >
         <div className='text-center pt-5'>
           <h2 className='display-5 text-danger'>OUR SWEET GALLERY</h2>
           <img src={title} alt='title separator' />

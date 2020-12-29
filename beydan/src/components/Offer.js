@@ -6,7 +6,12 @@ import title from '../images/title-separator.png'
 
 const Offer = () => {
   return (
-    <div className='container pt-5' id='offer'>
+    <div
+      className='container pt-5'
+      id='offer'
+      data-aos='fade-right'
+      data-aos-duration='2000'
+    >
       <div className='text-center pt-5'>
         <h2 className='display-5 text-danger'>OUR DELICIOUS OFFER</h2>
         <img src={title} alt='title separator' />

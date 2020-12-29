@@ -7,7 +7,12 @@ import title from '../images/title-separator.png'
 
 const Shop = () => {
   return (
-    <div className='container py-5' id='shop'>
+    <div
+      className='container py-5'
+      id='shop'
+      data-aos='fade-right'
+      data-aos-duration='2000'
+    >
       <div className='text-center pt-5'>
         <h2 className='display-5 text-danger'>ONLINE COFFEE SHOP</h2>
         <img src={title} alt='title separator' className='img-fluid' />

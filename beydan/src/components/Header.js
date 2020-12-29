@@ -65,6 +65,15 @@ const Header = () => {
                   Gallery
                 </a>
               </li>
+              <li className='nav-item'>
+                <a
+                  className='nav-link active'
+                  aria-current='page'
+                  href='#contact'
+                >
+                  Contact
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -93,7 +102,11 @@ const Header = () => {
         <div className='carousel-inner'>
           <div className='carousel-item active'>
             <img src={slide1} className='d-block w-100' alt='coffee heaven' />
-            <div className='carousel-caption d-none d-md-block'>
+            <div
+              className='carousel-caption d-none d-md-block'
+              data-aos='fade-up'
+              data-aos-duration='2000'
+            >
               <h5 className='display-1'>COFFEE HEAVEN</h5>
               <a
                 href='tel:+252615301507'
@@ -105,7 +118,11 @@ const Header = () => {
           </div>
           <div className='carousel-item'>
             <img src={slide2} className='d-block w-100' alt='coffee masters' />
-            <div className='carousel-caption d-none d-md-block'>
+            <div
+              className='carousel-caption d-none d-md-block'
+              data-aos='fade-up'
+              data-aos-duration='2000'
+            >
               <h5 className='display-1'>COFFEE MASTERS</h5>
               <a
                 href='tel:+252615301507'
@@ -117,7 +134,11 @@ const Header = () => {
           </div>
           <div className='carousel-item'>
             <img src={slide3} className='d-block w-100' alt='coffee factory' />
-            <div className='carousel-caption d-none d-md-block'>
+            <div
+              className='carousel-caption d-none d-md-block'
+              data-aos='fade-up'
+              data-aos-duration='2000'
+            >
               <h5 className='display-1'>COFFEE FACTORY</h5>
               <a
                 href='tel:+252615301507'

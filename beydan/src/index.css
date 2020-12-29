@@ -27,9 +27,13 @@ header.sticky nav {
   box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.175) !important;
   margin: 0 auto !important;
 }
+.navbar-toggler-icon {
+  background-image: url(./images/menu.svg) !important;
+}
 .navbar-toggler {
   box-shadow: none;
   color: antiquewhite !important;
+  border: 1px solid #f3ad1b !important;
 }
 .navbar-toggler:focus {
   box-shadow: none;
@@ -106,12 +110,16 @@ header.sticky nav {
 }
 
 /* ------------------ Footer ------------------ */
-#footer .social-links i {
+.social-links i {
   font-size: 20px;
   transition: 0.5s ease-in-out;
 }
-#footer .social-links i:hover {
+.social-links i:hover {
   font-size: 30px;
   transform: rotate(360deg);
   color: #ab2833;
+}
+#contact a {
+  text-decoration: none;
+  color: rgb(85, 85, 85);
 }

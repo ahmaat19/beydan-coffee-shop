@@ -6,7 +6,12 @@ import title from '../images/title-separator.png'
 const Herald = () => {
   return (
     <div className='container-fluid bg-fluid'>
-      <div className='container py-5' id='herald'>
+      <div
+        className='container py-5'
+        id='herald'
+        data-aos='fade-left'
+        data-aos-duration='2000'
+      >
         <div className='text-center pt-5'>
           <h2 className='display-5 text-danger'>THE COFFEE HERALD</h2>
           <img src={title} alt='title separator' />
