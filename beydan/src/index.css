@@ -10,7 +10,6 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 300vh;
   background-color: #d6d6e3;
 }
 header nav {
@@ -109,7 +108,7 @@ header.sticky nav {
   border-radius: 10px;
 }
 
-/* ------------------ Footer ------------------ */
+/* ------------------ Footer & contact ------------------ */
 .social-links i {
   font-size: 20px;
   transition: 0.5s ease-in-out;
@@ -121,5 +120,23 @@ header.sticky nav {
 }
 #contact a {
   text-decoration: none;
-  color: rgb(85, 85, 85);
+  color: #fff;
+}
+.bg-footer {
+  background: url(./images/footer.jpg) no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+#contact {
+  margin-bottom: -25px;
+}
+
+/* ------------------ Menu ------------------ */
+#menu .card {
+  transition: 0.5s ease-in-out;
+}
+#menu .card:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0.5rem 1rem #ab283325 !important;
 }
