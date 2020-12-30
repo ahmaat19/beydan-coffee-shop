@@ -19,8 +19,9 @@ function App() {
       <Shop />
       <Gallery />
       <Contact />
-      <MessengerCustomerChat pageId='124009027931044' appId='742193349728923' />
-      ,
+      <div className='container'>
+        <MessengerCustomerChat pageId='124009027931044' appId='742193349728923' />
+      </div>
     </>
   )
 }
